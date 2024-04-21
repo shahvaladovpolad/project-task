@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin : 0px;
+    box-sizing : border-box;
+}
+
+.container{
+    max-width:1300px;
+}
+
+.navigation-bar{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navigation-bar ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.navigation-bar ul a{
+    text-decoration: none;
+    height: 100%;
+}
+button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.description-prolab{
+   width: 650px;
+   margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.title-prolab{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.inner-box {
+    text-align: center;
+    background: #F7F9FF;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 21px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding:27px; 
+    margin-bottom: 25px;
+}
+.whybest {
+  max-width: 50%;
+  flex: 50%;
+    padding-left:15px;
+    padding-right: 15px;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.features{
+    width:650px;
+    margin:auto;
+    text-align: center;
+}
+
+
